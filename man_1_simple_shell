@@ -1,0 +1,47 @@
+.TH hsh 1 "17 MAY 2022" "hsh Usage Commands Manual"
+.SH NAME
+Simple_Shell - command line interpreter or shell.
+.SH SYNOPSIS
+\fB ./hsh\fR
+
+\fB (no options yet)\fR
+
+.SH DESCRIPTION
+\fBSimpleShell()\fR writes to the standard output according to a format specifier.
+
+.SH OVERVIEW
+
+Reading from either the terminal or files, simple_shell interprets and executes commands.
+
+.RE
+
+.SH Compilation
+
+Compile simple_shell with the GNU Compiler Collection, preferably using gcc plus the below specified flags, as per this example:
+.P
+.RS
+.B $ gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+.P
+.RE
+simple_shell can be run by entering the below command on the command line. Note that the prompt ('$') will appear and you will then be able to enter commands.
+.P
+.RS
+.B $ ./hsh
+
+.SH BUILTINS
+
+The following builtin commands are supported:
+
+.B exit
+- Exits the shell
+
+.B env
+- List the current environment variables
+
+.SH SEE ALSO
+.B Bash(1)
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+Haile Fikere
+Andualem Shenkute
