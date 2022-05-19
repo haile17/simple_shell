@@ -38,3 +38,29 @@ This file contains the details of all the individuals that contributed to this s
 3. The command lines are simple, no semicolons, no pipes, no redirections, or any other advanced features.
 4. The command lines are made only of one word.No arguement will be passed to the programs.
 5.If an executable is not found the shell prints an error message and displayu the prompt again.
+## Included Files 
+-  functions for calling the shell and initializing the shell struct
+-  functions for running the basic shell logic
+-  functions for helping the shell run
+-  functions for splitting string from the user
+-  functions for manipulating strings
+-  functions for manipulating strings
+-  functions for built-ins
+-  functions for helping the built-in functions
+-  functions for the help built-in
+-  functions for the help built-in
+-  functions for the cd built-in
+-  functions for the cd built-in
+-  functions for getting elements from the environment
+-  functions for the env, setenv, and unsetenv built-ins
+-  linked list functions
+-  linked list functions
+-  functions for dealing with the $? and $\$ expansions
+-  functions for checking the path of an executable
+-  functions for dealing with errors
+-  functions for freeing allocated memory
+-  header file
+
+### Credits
+
+All code written by Haile17 and AndulaemGeta
