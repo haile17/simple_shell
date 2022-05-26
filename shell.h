@@ -20,15 +20,15 @@ char *name;
 /* Global history counter */
 int hist;
 
-/*
+/**
  * struct list_s - A new struct type defining a linked list.
  * @dir: A directory path.
- * @next: A pointer to another struct list_s.
+ *@next: A pointer to another struct list_s.
  */
 typedef struct list_s
 {
-		char *dir;
-			struct list_s *next;
+	char *dir;
+	struct list_s *next;
 } list_t;
 
 /*
@@ -38,8 +38,8 @@ typedef struct list_s
  */
 typedef struct builtin_s
 {
-		char *name;
-			int (*f)(char **argv, char **front);
+	char *name;
+	int (*f)(char **argv, char **front);
 } builtin_t;
 
 /*
